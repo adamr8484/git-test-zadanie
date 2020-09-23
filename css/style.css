@@ -34,12 +34,6 @@ body {
   background: #84817a;
 }
 
-.page-subtitle {
-  color: #fff;
-  font-size: 28px;
-  margin: 48px 0 0 0;
-}
-
 /*Navigation*/
 .navigation {
   background: transparent;
@@ -90,8 +84,17 @@ body {
   font-family: "Roboto Condensed", Sans-Serif;
 }
 
+.page-subtitle {
+  color: #fff;
+  font-size: 28px;
+  margin: 48px 0 0 0;
+}
+
 .section-title {
   font-family: "Roboto Condensed", Sans-Serif;
+  color: #000000;
+  font-size: 38px;
+  margin: 48px 0 0 0;
 }
 
 .btn {
@@ -108,5 +111,27 @@ body {
   width: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/*Services*/
+i {
+  color: #FFC300;
+  font-size: 38px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  position: relative;
+}
+
+.col-sm-4 {
+  -ms-flex: 0 0 33.333%;
+      flex: 0 0 33.333%;
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */
