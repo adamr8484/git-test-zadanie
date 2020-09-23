@@ -1,0 +1,112 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  color: #3d3d3d;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Cabin", Sans-Serif;
+}
+
+.container {
+  max-width: 1140;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  padding: 108px 0px;
+}
+
+.page-title::after {
+  position: absolute;
+  content: '';
+  bottom: -24px;
+  left: 50%;
+  width: 100px;
+  height: 10px;
+  transform: translateX(-50%);
+  background: #84817a;
+}
+
+.page-subtitle {
+  color: #fff;
+  font-size: 28px;
+  margin: 48px 0 0 0;
+}
+
+/*Navigation*/
+.navigation {
+  background: transparent;
+  padding: 12px 0;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0 36px 0 0;
+  position: relative;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #84817a;
+}
+
+/*Splash*/
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/994164/pexels-photo-994164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page-title {
+  color: #fff;
+  font-size: 60px;
+  margin: 48px 0 48px 0;
+  position: relative;
+  font-family: "Roboto Condensed", Sans-Serif;
+}
+
+.section-title {
+  font-family: "Roboto Condensed", Sans-Serif;
+}
+
+.btn {
+  display: block;
+  max-width: 300px;
+  padding: 24px 0;
+  background: #38ada9;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto Condensed", Sans-Serif;
+  position: relative;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=style.css.map */
