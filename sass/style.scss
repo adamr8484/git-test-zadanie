@@ -42,8 +42,12 @@ body {
 /*Navigation*/
 
 .navigation {
+    display: flex;
     background: transparent;
     padding: 12px 0;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .navigation ul {
     margin: 0;
@@ -60,7 +64,10 @@ body {
     text-decoration: none;
     color: $color-main;
 }
-
+.nav-title {
+    position: relative;
+    text-align: left;
+}
 /*Splash*/
 
 .splash {
@@ -118,34 +125,41 @@ i {
   color: $color-orange;  
   font-size: 38px;
 }
-/*.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: relative;
-}
-.col-sm-4 {
-    flex: 0 0 33.333%;
-    position: absolute;
-}*/
+
 /*Portfolio*/
-.image img {
+  
+  .gallery .gallery-box .image {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    flex: 0 1 200px;
+    margin-right: 20px;
+  }
+  
+  .gallery .gallery-box .image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
+  
+  .gallery .gallery-box .text {
+    flex: 1;
+  }
 /*Footer*/
+
+.footer-row {
+    display: inline-flex;
+}
+.footer-item {
+    flex: 1;
+}
 .box {
     width: 60px;
     height: 60px;
     border-radius: 100%;
     background: #000;
-    display: flex;
     align-items: center;
     justify-content: center;
-  }
-.box .i {
-    margin: 0 20px 0 20px;
   }
   
 
