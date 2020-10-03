@@ -13,12 +13,6 @@ body {
   font-family: "Cabin", Sans-Serif;
 }
 
-.container {
-  max-width: 1140;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 .section {
   padding: 108px 0px;
 }
@@ -35,11 +29,6 @@ body {
 }
 
 /*Navigation*/
-.navigation {
-  background: transparent;
-  padding: 12px 0;
-}
-
 .navigation ul {
   margin: 0;
   padding: 0;
@@ -55,7 +44,16 @@ body {
 
 .navigation a {
   text-decoration: none;
-  color: #84817a;
+  color: #161414;
+}
+
+a:hover {
+  color: #a72b50;
+}
+
+.nav-title {
+  position: relative;
+  text-align: left;
 }
 
 /*Splash*/
@@ -119,19 +117,49 @@ i {
   font-size: 38px;
 }
 
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  position: relative;
+/*Portfolio*/
+.portfolio {
+  background: #84817a;
 }
 
-.col-sm-4 {
-  -ms-flex: 0 0 33.333%;
-      flex: 0 0 33.333%;
-  position: absolute;
+.gallery .gallery-box .image {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  -ms-flex: 0 1 200px;
+      flex: 0 1 200px;
+  margin-right: 20px;
+}
+
+.gallery-box {
+  margin: 20px 20px;
+  background: #fff;
+}
+
+.gallery .gallery-box .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery .gallery-box .text {
+  -ms-flex: 1;
+      flex: 1;
+}
+
+/*Footer*/
+.box {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: #000;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.footer-item i {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
