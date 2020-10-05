@@ -92,7 +92,6 @@ a:hover {
   font-family: "Roboto Condensed", Sans-Serif;
   color: #000000;
   font-size: 38px;
-  margin: 48px 0 0 0;
 }
 
 .btn {
@@ -112,6 +111,10 @@ a:hover {
 }
 
 /*Services*/
+.services {
+  margin: 48px 0;
+}
+
 i {
   color: #FFC300;
   font-size: 38px;
@@ -120,6 +123,7 @@ i {
 /*Portfolio*/
 .portfolio {
   background: #84817a;
+  margin: 48px 0;
 }
 
 .gallery .gallery-box .image {
@@ -148,6 +152,10 @@ i {
 }
 
 /*Footer*/
+footer {
+  padding: 5px 0 30px 0;
+}
+
 .box {
   width: 60px;
   height: 60px;
@@ -157,6 +165,7 @@ i {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
+  line-height: 60px;
 }
 
 .footer-item i {
